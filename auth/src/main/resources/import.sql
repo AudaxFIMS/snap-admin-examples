@@ -9,7 +9,7 @@ INSERT INTO products (id, name, description, price) VALUES (8, 'Nokia 8.3', 'Nok
 INSERT INTO products (id, name, description, price) VALUES (9, 'Huawei P40 Pro', 'Huawei P40 Pro with 256GB Memory', 899.99);
 INSERT INTO products (id, name, description, price) VALUES (10, 'Xiaomi Mi 10', 'Xiaomi Mi 10 with 128GB Memory', 699.99);
 
-INSERT INTO `user` (id, username, password) VALUES (1, 'user', '{bcrypt}$2a$10$DFI.ufOoWyTu1vO4kqMTV.cLB7O.rAOVQIv/Q3Rx13uivd9mtYlTG');
-INSERT INTO `user` (id, username, password) VALUES (2, 'admin', '{bcrypt}$2a$10$DFI.ufOoWyTu1vO4kqMTV.cLB7O.rAOVQIv/Q3Rx13uivd9mtYlTG');
+INSERT INTO `user` (id, username, password) VALUES (1, 'user', '{bcrypt}$2a$12$nPqYVLRClooFkcAqu/U8HunWtaTqsmjBHXtU298UMZqJuw0i4ycoC');
+INSERT INTO `user` (id, username, password) VALUES (2, 'admin', '{bcrypt}$2a$12$yNND9FP/B1PhsgD0v5kspOvkIc1Eq3miKCK/rE/s.dTa7loxcdBIu');
 INSERT INTO `role` (id, name) VALUES (1, 'USER'), (2, 'ADMIN');
 INSERT INTO `user_roles` (roles_id, user_id) VALUES (1, 1), (2, 2);
