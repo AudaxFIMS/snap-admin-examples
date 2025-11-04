@@ -68,15 +68,3 @@ to use Docker, you will need to customize the project's `application.properties`
 Once the application is up and running, you can access the admin interface by opening your web browser and navigating to the following URL:
 
 [http://localhost:8080/admin](http://localhost:8080/admin)
-
-### 📝 Tests
-
-To execute the project-specific tests, run the following command inside the project's directory. Make sure the project's application is already running
-in the background.
-
-```shell
-mvn test
-```
-
-Also, make sure you are running tests on a "clean" instance of the database, i.e. you have not changed its content. If that's the case, tests
-may not execute correctly.
