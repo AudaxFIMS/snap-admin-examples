@@ -1,6 +1,6 @@
 # SnapAdmin Test Projects
 
-This repo contains multiple [SnapAdmin](https://github.com/aileftech/snap-admin)-related projects. 
+This repo contains multiple [SnapAdmin](https://github.com/AudaxFIMS/snap-admin)-related projects. 
 
 In particular, each folder is a stand-alone project consisting of a Spring Boot + SnapAdmin application.
 Every project serves a dual purpose:
@@ -39,7 +39,7 @@ to use Docker, you will need to customize the project's `application.properties`
   - Clone the Repository.
 
     ```sh
-    git clone https://github.com/aileftech/snap-admin-test
+    git clone https://github.com/AudaxFIMS/snap-admin
     ```
 
   - Navigate to the project folder inside the repo, e.g. 'auth'
