@@ -13,3 +13,8 @@ INSERT INTO `user` (id, username, password) VALUES (1, 'user', '{bcrypt}$2a$12$n
 INSERT INTO `user` (id, username, password) VALUES (2, 'admin', '{bcrypt}$2a$12$yNND9FP/B1PhsgD0v5kspOvkIc1Eq3miKCK/rE/s.dTa7loxcdBIu');
 INSERT INTO `role` (id, name) VALUES (1, 'USER'), (2, 'ADMIN');
 INSERT INTO `user_roles` (roles_id, user_id) VALUES (1, 1), (2, 2);
+
+INSERT INTO entity_with_id_class (id_first, description, id_second) VALUES (0xD7010BA3FBB645C0AA72860141351CD0, 'test 1', 'test,#@$#%');
+
+INSERT INTO snapadmin_test_auth.entity_with_embeded_id_class (id_first, description, id_second) VALUES (0xAF45D808C9A54AF6B9CD6E2EB5FC2BBA, 'second test row', 'secondRow');
+INSERT INTO snapadmin_test_auth.entity_with_embeded_id_class (id_first, description, id_second) VALUES (0xD7010BA3FBB645C0AA72860141351CD0, 'test 2', 'test,#@$#%');

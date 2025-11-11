@@ -12,7 +12,7 @@
 
 	<groupId>dev.semeshin</groupId>
 	<artifactId>snap-admin-test-main</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.3</version>
 	<name>snap-admin-test-main</name>
 	<description>SnapAdmin main test project.</description>
 
@@ -67,7 +67,7 @@
 		<dependency>
 			<groupId>dev.semeshin</groupId>
 			<artifactId>snap-admin</artifactId>
-			<version>1.0.1</version>
+			<version>1.0.3</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
