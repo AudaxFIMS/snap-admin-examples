@@ -13,3 +13,7 @@ INSERT INTO `user` (id, username, password) VALUES (1, 'user', '{bcrypt}$2a$12$n
 INSERT INTO `user` (id, username, password) VALUES (2, 'admin', '{bcrypt}$2a$12$yNND9FP/B1PhsgD0v5kspOvkIc1Eq3miKCK/rE/s.dTa7loxcdBIu');
 INSERT INTO `role` (id, name) VALUES (1, 'USER'), (2, 'ADMIN');
 INSERT INTO `user_roles` (roles_id, user_id) VALUES (1, 1), (2, 2);
+
+INSERT INTO entity_with_id_class (id_first, description, id_second) VALUES (0xD7010BA3FBB645C0AA72860141351CD0, 'test', 'test,#@$#%');
+
+INSERT INTO entity_with_embeded_id_class (id_first, description, id_second) VALUES (0xD7010BA3FBB645C0AA72860141351CD0, 'd7010ba3-fbb6-45c0-aa72-860141351cd0', 'test,#@$#%');

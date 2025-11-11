@@ -6,15 +6,17 @@ import jakarta.persistence.Id;
 import jakarta.persistence.IdClass;
 import lombok.Data;
 
+import java.util.UUID;
+
 @Data
 @Entity
 @IdClass(ClassId.class)
 public class EntityWithIdClass {
     @Id
-    private Integer idFirst;
+    private UUID idFirst;
 
     @Id
-    private Integer idSecond;
+    private String idSecond;
 
     private String description;
 }
